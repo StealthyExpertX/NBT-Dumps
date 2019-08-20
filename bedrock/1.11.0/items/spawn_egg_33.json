@@ -1,0 +1,24 @@
+{
+  "minecraft:spawn_egg:33": {
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 33
+    },
+    "ItemIdentifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:creeper"
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:spawn_egg"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 20
+    }
+  }
+}

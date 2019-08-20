@@ -1,0 +1,1486 @@
+{
+  "minecraft:villager_v2": {
+    "Air": {
+      "tag": "TAG_SHORT",
+      "val": 300
+    },
+    "Armor": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "AttackTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Attributes": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 20
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 11
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 20
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:health"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0.5
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.5
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 16
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:absorption"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:knockback_resistance"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0.02
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.02
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:underwater_movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 128
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 128
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 2048
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:follow_range"
+          }
+        }
+      ]
+    },
+    "BodyRot": {
+      "tag": "TAG_FLOAT",
+      "val": 158.8754
+    },
+    "ChestItems": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 1
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 2
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 3
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 4
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 5
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 6
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 7
+          }
+        }
+      ]
+    },
+    "Chested": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color2": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "DeathTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "DwellerRole": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "DwellingType": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "DwellingUniqueID": {
+      "tag": "TAG_STRING",
+      "val": "00000000-0000-0000-0000-000000000000"
+    },
+    "FallDistance": {
+      "tag": "TAG_FLOAT",
+      "val": 0
+    },
+    "Fire": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "HurtTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "InventoryVersion": {
+      "tag": "TAG_STRING",
+      "val": "1.11.4"
+    },
+    "Invulnerable": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAngry": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAutonomous": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsBaby": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsEating": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGliding": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGlobal": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsIllagerCaptain": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsInRaid": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsOrphaned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsPregnant": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsRoaring": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsScared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsStunned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsSwimming": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTamed": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTransitioningSitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTrusting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "LastDimensionId": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "LeasherID": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "LootDropped": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Mainhand": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "MarkVariant": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "NaturalSpawn": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Offers": {
+      "tag": "TAG_COMPOUND",
+      "val": {
+        "Recipes": {
+          "tag": "TAG_LIST",
+          "listtag": "TAG_COMPOUND",
+          "val": [
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 6
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:leather"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 6
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.05
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 7
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 7
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.1
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:leather_chestplate"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 2
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 26
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:flint"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 26
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.05
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 5
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 5
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 5
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.1
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:leather_helmet"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 10
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 9
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:rabbit_hide"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 9
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.05
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 2
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 10
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 7
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 7
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.1
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:leather_chestplate"
+                  },
+                  "tag": {
+                    "tag": "TAG_COMPOUND",
+                    "val": {
+                      "ench": {
+                        "tag": "TAG_LIST",
+                        "listtag": "TAG_COMPOUND",
+                        "val": [
+                          {
+                            "id": {
+                              "tag": "TAG_SHORT",
+                              "val": 0
+                            },
+                            "lvl": {
+                              "tag": "TAG_SHORT",
+                              "val": 2
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 2
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 20
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 4
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:turtle_shell_piece"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.05
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 3
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 15
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 6
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 6
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.1
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:horsearmorleather"
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 3
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 30
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "buyA": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 5
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 32767
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:emerald"
+                  }
+                }
+              },
+              "buyCountA": {
+                "tag": "TAG_INT",
+                "val": 5
+              },
+              "buyCountB": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "demand": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "maxUses": {
+                "tag": "TAG_INT",
+                "val": 1
+              },
+              "priceMultiplierA": {
+                "tag": "TAG_FLOAT",
+                "val": 0.1
+              },
+              "priceMultiplierB": {
+                "tag": "TAG_FLOAT",
+                "val": 0
+              },
+              "rewardExp": {
+                "tag": "TAG_BYTE",
+                "val": 1
+              },
+              "sell": {
+                "tag": "TAG_COMPOUND",
+                "val": {
+                  "Count": {
+                    "tag": "TAG_BYTE",
+                    "val": 1
+                  },
+                  "Damage": {
+                    "tag": "TAG_SHORT",
+                    "val": 0
+                  },
+                  "Name": {
+                    "tag": "TAG_STRING",
+                    "val": "minecraft:leather_helmet"
+                  },
+                  "tag": {
+                    "tag": "TAG_COMPOUND",
+                    "val": {
+                      "ench": {
+                        "tag": "TAG_LIST",
+                        "listtag": "TAG_COMPOUND",
+                        "val": [
+                          {
+                            "id": {
+                              "tag": "TAG_SHORT",
+                              "val": 0
+                            },
+                            "lvl": {
+                              "tag": "TAG_SHORT",
+                              "val": 2
+                            }
+                          },
+                          {
+                            "id": {
+                              "tag": "TAG_SHORT",
+                              "val": 5
+                            },
+                            "lvl": {
+                              "tag": "TAG_SHORT",
+                              "val": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "tier": {
+                "tag": "TAG_INT",
+                "val": 4
+              },
+              "traderExp": {
+                "tag": "TAG_INT",
+                "val": 0
+              },
+              "uses": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            }
+          ]
+        },
+        "TierExpRequirements": {
+          "tag": "TAG_LIST",
+          "listtag": "TAG_COMPOUND",
+          "val": [
+            {
+              "0": {
+                "tag": "TAG_INT",
+                "val": 0
+              }
+            },
+            {
+              "1": {
+                "tag": "TAG_INT",
+                "val": 10
+              }
+            },
+            {
+              "2": {
+                "tag": "TAG_INT",
+                "val": 60
+              }
+            },
+            {
+              "3": {
+                "tag": "TAG_INT",
+                "val": 160
+              }
+            },
+            {
+              "4": {
+                "tag": "TAG_INT",
+                "val": 310
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Offhand": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "OnGround": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "OwnerNew": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "Persistent": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "PortalCooldown": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Pos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -10.15407,
+        4,
+        -3.140497
+      ]
+    },
+    "PreferredProfession": {
+      "tag": "TAG_STRING",
+      "val": "leatherworker"
+    },
+    "ReactToBell": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "RewardPlayersOnFirstFounding": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Riches": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Rotation": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        158.8754,
+        0
+      ]
+    },
+    "Saddled": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sheared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "ShowBottom": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "SkinID": {
+      "tag": "TAG_INT",
+      "val": 3
+    },
+    "Strength": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "StrengthMax": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Surface": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "TargetID": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "TradeExperience": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "TradeTablePath": {
+      "tag": "TAG_STRING",
+      "val": "trading/economy_trades/leather_worker_trades.json"
+    },
+    "TradeTier": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "UniqueID": {
+      "tag": "TAG_LONG",
+      "val": -60129542141
+    },
+    "Variant": {
+      "tag": "TAG_INT",
+      "val": 12
+    },
+    "Willing": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "boundX": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "boundY": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "boundZ": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "definitions": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_STRING",
+      "val": [
+        "+minecraft:villager_v2",
+        "+villager_skin_3",
+        "+adult",
+        "+leatherworker",
+        "+behavior_non_peasant",
+        "+basic_schedule",
+        "-job_specific_goals",
+        "-play_schedule_villager",
+        "-trade_resupply_component_group",
+        "+bed_schedule_villager"
+      ]
+    },
+    "hasBoundOrigin": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "identifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:villager_v2"
+    },
+    "limitedLife": {
+      "tag": "TAG_INT",
+      "val": 0
+    }
+  }
+}

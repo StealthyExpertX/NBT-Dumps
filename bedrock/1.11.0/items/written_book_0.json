@@ -1,0 +1,20 @@
+{
+  "minecraft:written_book:0": {
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:written_book"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 4
+    }
+  }
+}

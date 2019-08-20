@@ -1,0 +1,514 @@
+{
+  "minecraft:sheep": {
+    "Air": {
+      "tag": "TAG_SHORT",
+      "val": 300
+    },
+    "Armor": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "AttackTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Attributes": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 8
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 8
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 8
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:health"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0.25
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.25
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 16
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:absorption"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:knockback_resistance"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0.02
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.02
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:underwater_movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 16
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 16
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 2048
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:follow_range"
+          }
+        }
+      ]
+    },
+    "BodyRot": {
+      "tag": "TAG_FLOAT",
+      "val": 97.39551
+    },
+    "Chested": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color2": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "DeathTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "FallDistance": {
+      "tag": "TAG_FLOAT",
+      "val": 0
+    },
+    "Fire": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "HurtTime": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "InLove": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Invulnerable": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAngry": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAutonomous": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsBaby": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsEating": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGliding": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGlobal": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsIllagerCaptain": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsOrphaned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsPregnant": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsRoaring": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsScared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsStunned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsSwimming": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTamed": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTransitioningSitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTrusting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "LastDimensionId": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "LeasherID": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "LootDropped": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "LoveCause": {
+      "tag": "TAG_LONG",
+      "val": 0
+    },
+    "Mainhand": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "MarkVariant": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "NaturalSpawn": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Offhand": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 0
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": ""
+          }
+        }
+      ]
+    },
+    "OnGround": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "OwnerNew": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "Persistent": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "PortalCooldown": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Pos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -4.5,
+        4,
+        -27.5
+      ]
+    },
+    "Rotation": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        134.4683,
+        0
+      ]
+    },
+    "Saddled": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sheared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "ShowBottom": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "SkinID": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Strength": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "StrengthMax": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Surface": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "TargetID": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "TradeExperience": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "TradeTier": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "UniqueID": {
+      "tag": "TAG_LONG",
+      "val": -47244640239
+    },
+    "Variant": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "boundX": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "boundY": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "boundZ": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "definitions": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_STRING",
+      "val": [
+        "+minecraft:sheep",
+        "+minecraft:sheep_adult",
+        "+minecraft:rideable_wooly",
+        "+minecraft:loot_wooly",
+        "+minecraft:sheep_white",
+        "-minecraft:sheep_sheared",
+        "+minecraft:sheep_dyeable"
+      ]
+    },
+    "hasBoundOrigin": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "identifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:sheep"
+    },
+    "limitedLife": {
+      "tag": "TAG_INT",
+      "val": 0
+    }
+  }
+}
