@@ -1,0 +1,24 @@
+{
+  "minecraft:spawn_egg:26": {
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 26
+    },
+    "ItemIdentifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:skeleton_horse"
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:spawn_egg"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 20
+    }
+  }
+}

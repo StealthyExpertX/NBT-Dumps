@@ -1,0 +1,193 @@
+{
+  "minecraft:fireworks_rocket": {
+    "Chested": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Color2": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "FallDistance": {
+      "tag": "TAG_FLOAT",
+      "val": 0
+    },
+    "Fire": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Invulnerable": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAngry": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsAutonomous": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsBaby": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsEating": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGliding": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsGlobal": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "IsIllagerCaptain": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsOrphaned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsRoaring": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsScared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsStunned": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsSwimming": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTamed": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTransitioningSitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "IsTrusting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "LastDimensionId": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Life": {
+      "tag": "TAG_INT",
+      "val": 20
+    },
+    "LifeTime": {
+      "tag": "TAG_INT",
+      "val": 29
+    },
+    "LootDropped": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "MarkVariant": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        0.00008430077,
+        1.071447,
+        -0.0006192179
+      ]
+    },
+    "OnGround": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "OwnerNew": {
+      "tag": "TAG_LONG",
+      "val": -1
+    },
+    "PortalCooldown": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Pos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -14.31134,
+        13.87143,
+        -12.00794
+      ]
+    },
+    "Rotation": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        172.2474,
+        89.54945
+      ]
+    },
+    "Saddled": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sheared": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "ShowBottom": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "Sitting": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "SkinID": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "Strength": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "StrengthMax": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "UniqueID": {
+      "tag": "TAG_LONG",
+      "val": -38654705646
+    },
+    "Variant": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "definitions": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_STRING",
+      "val": [
+        "+minecraft:fireworks_rocket"
+      ]
+    },
+    "identifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:fireworks_rocket"
+    }
+  }
+}

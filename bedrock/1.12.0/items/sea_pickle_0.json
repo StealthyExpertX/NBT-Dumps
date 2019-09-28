@@ -1,0 +1,46 @@
+{
+  "minecraft:sea_pickle:0": {
+    "Block": {
+      "tag": "TAG_COMPOUND",
+      "val": {
+        "name": {
+          "tag": "TAG_STRING",
+          "val": "minecraft:sea_pickle"
+        },
+        "states": {
+          "tag": "TAG_COMPOUND",
+          "val": {
+            "cluster_count": {
+              "tag": "TAG_INT",
+              "val": 0
+            },
+            "dead_bit": {
+              "tag": "TAG_BYTE",
+              "val": 0
+            }
+          }
+        },
+        "version": {
+          "tag": "TAG_INT",
+          "val": 17432626
+        }
+      }
+    },
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:sea_pickle"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 17
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "minecraft:spawn_egg:116": {
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 116
+    },
+    "ItemIdentifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:zombie_villager_v2"
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:spawn_egg"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 2
+    }
+  }
+}

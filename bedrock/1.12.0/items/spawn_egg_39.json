@@ -1,0 +1,24 @@
+{
+  "minecraft:spawn_egg:39": {
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 39
+    },
+    "ItemIdentifier": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:silverfish"
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:spawn_egg"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 22
+    }
+  }
+}

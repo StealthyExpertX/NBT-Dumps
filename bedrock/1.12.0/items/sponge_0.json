@@ -1,0 +1,42 @@
+{
+  "minecraft:sponge:0": {
+    "Block": {
+      "tag": "TAG_COMPOUND",
+      "val": {
+        "name": {
+          "tag": "TAG_STRING",
+          "val": "minecraft:sponge"
+        },
+        "states": {
+          "tag": "TAG_COMPOUND",
+          "val": {
+            "sponge_type": {
+              "tag": "TAG_STRING",
+              "val": "wet"
+            }
+          }
+        },
+        "version": {
+          "tag": "TAG_INT",
+          "val": 17432626
+        }
+      }
+    },
+    "Count": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "Damage": {
+      "tag": "TAG_SHORT",
+      "val": 0
+    },
+    "Name": {
+      "tag": "TAG_STRING",
+      "val": "minecraft:sponge"
+    },
+    "Slot": {
+      "tag": "TAG_BYTE",
+      "val": 17
+    }
+  }
+}
