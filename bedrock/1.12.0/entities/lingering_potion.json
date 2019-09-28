@@ -1,5 +1,5 @@
 {
-  "minecraft:small_fireball": {
+  "minecraft:lingering_potion": {
     "Chested": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -27,7 +27,7 @@
     },
     "Fire": {
       "tag": "TAG_SHORT",
-      "val": 20
+      "val": 0
     },
     "Invulnerable": {
       "tag": "TAG_BYTE",
@@ -55,7 +55,7 @@
     },
     "IsGlobal": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "IsIllagerCaptain": {
       "tag": "TAG_BYTE",
@@ -109,18 +109,22 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        1.054927,
-        0.04433434,
-        0.7665629
+        0.01424551,
+        -1.632362,
+        0.1264634
       ]
     },
     "OnGround": {
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "OwnerID": {
+      "tag": "TAG_LONG",
+      "val": -4294967295
+    },
     "OwnerNew": {
       "tag": "TAG_LONG",
-      "val": -94489280440
+      "val": -4294967295
     },
     "PortalCooldown": {
       "tag": "TAG_INT",
@@ -130,17 +134,21 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        80.8179,
-        11.02746,
-        93.83379
+        6.473523,
+        30.13987,
+        -7.541893
       ]
+    },
+    "PotionId": {
+      "tag": "TAG_SHORT",
+      "val": 8
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        53.99595,
-        1.947192
+        6.427008,
+        -84.5695
       ]
     },
     "Saddled": {
@@ -182,11 +190,11 @@
     },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -4294967295
+      "val": -1
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -98784247794
+      "val": -73014443952
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -196,34 +204,20 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_STRING",
       "val": [
-        "+minecraft:small_fireball"
-      ]
-    },
-    "direction": {
-      "tag": "TAG_LIST",
-      "listtag": "TAG_FLOAT",
-      "val": [
-        1.054927,
-        0.04433434,
-        0.7665629
+        "+minecraft:lingering_potion"
       ]
     },
     "identifier": {
       "tag": "TAG_STRING",
-      "val": "minecraft:small_fireball"
+      "val": "minecraft:lingering_potion"
     },
     "inGround": {
       "tag": "TAG_BYTE",
       "val": 0
     },
-    "power": {
-      "tag": "TAG_LIST",
-      "listtag": "TAG_FLOAT",
-      "val": [
-        0,
-        0,
-        0
-      ]
+    "shake": {
+      "tag": "TAG_BYTE",
+      "val": 0
     }
   }
 }

@@ -77,6 +77,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 30
           },
           "Current": {
@@ -90,42 +108,6 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.12
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.12
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:movement"
           }
         },
         {
@@ -179,17 +161,17 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:underwater_movement"
+            "val": "minecraft:movement"
           }
         },
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0.12
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0.12
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -197,7 +179,25 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:underwater_movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
           }
         },
         {
@@ -240,7 +240,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": -10.11453
+      "val": -18.03127
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -378,6 +378,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        0.05625541,
+        -0.00843449,
+        0.001565842
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -404,7 +413,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -422,17 +431,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        1.026818,
-        1,
-        -3.630062
+        3.281379,
+        1.119665,
+        27.61434
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -10.11453,
-        0
+        -18.03127,
+        6.430511
       ]
     },
     "Saddled": {
@@ -485,7 +494,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -55834574844
+      "val": -25769803771
     },
     "Variant": {
       "tag": "TAG_INT",

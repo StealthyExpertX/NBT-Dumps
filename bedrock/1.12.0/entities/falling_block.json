@@ -14,7 +14,7 @@
     },
     "FallDistance": {
       "tag": "TAG_FLOAT",
-      "val": 17.34055
+      "val": 9.578035
     },
     "FallingBlock": {
       "tag": "TAG_COMPOUND",
@@ -114,7 +114,7 @@
       "listtag": "TAG_FLOAT",
       "val": [
         0,
-        -0.9331896,
+        -0.7284396,
         0
       ]
     },
@@ -134,9 +134,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        6.5,
-        58.15944,
-        94.5
+        -2.5,
+        15.92197,
+        15.5
       ]
     },
     "Rotation": {
@@ -177,15 +177,15 @@
     },
     "Time": {
       "tag": "TAG_BYTE",
-      "val": 32
+      "val": 23
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -38654705658
+      "val": -120259084274
     },
     "Variant": {
       "tag": "TAG_INT",
-      "val": 2483
+      "val": 2296
     },
     "definitions": {
       "tag": "TAG_LIST",

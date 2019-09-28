@@ -81,6 +81,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 20
           },
           "Current": {
@@ -94,42 +112,6 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.23
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.23
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:movement"
           }
         },
         {
@@ -157,7 +139,7 @@
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 0.009221328
+            "val": 0.01075181
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -170,7 +152,7 @@
               {
                 "Amount": {
                   "tag": "TAG_FLOAT",
-                  "val": 0.009221328
+                  "val": 0.01075181
                 },
                 "Name": {
                   "tag": "TAG_STRING",
@@ -203,6 +185,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 0.23
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.23
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 0.02
           },
           "Current": {
@@ -221,19 +221,19 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
           },
           "Max": {
             "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
+            "val": 1024
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:luck"
           }
         },
         {
@@ -243,11 +243,43 @@
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 16
+            "val": 32.93522
           },
           "Max": {
             "tag": "TAG_FLOAT",
             "val": 2048
+          },
+          "Modifiers": {
+            "tag": "TAG_LIST",
+            "listtag": "TAG_COMPOUND",
+            "val": [
+              {
+                "Amount": {
+                  "tag": "TAG_FLOAT",
+                  "val": 1.058451
+                },
+                "Name": {
+                  "tag": "TAG_STRING",
+                  "val": "RandomSpawnBonus"
+                },
+                "Operand": {
+                  "tag": "TAG_INT",
+                  "val": 2
+                },
+                "Operation": {
+                  "tag": "TAG_INT",
+                  "val": 2
+                },
+                "UUIDLeast": {
+                  "tag": "TAG_LONG",
+                  "val": -5445178238703144000
+                },
+                "UUIDMost": {
+                  "tag": "TAG_LONG",
+                  "val": -4391065492226947600
+                }
+              }
+            ]
           },
           "Name": {
             "tag": "TAG_STRING",
@@ -276,7 +308,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": 96.91406
+      "val": 148.5875
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -471,17 +503,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -10.5,
+        1.5,
         4,
-        -25.5
+        31.5
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        107.9966,
-        5.142776
+        120.8503,
+        -9.234421
       ]
     },
     "Saddled": {
@@ -534,7 +566,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -51539607541
+      "val": -25769803764
     },
     "Variant": {
       "tag": "TAG_INT",

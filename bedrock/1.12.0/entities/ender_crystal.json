@@ -121,9 +121,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -12.5,
-        4.5,
-        -19.5
+        29.40053,
+        6.792558,
+        -9.696886
       ]
     },
     "Rotation": {
@@ -164,11 +164,11 @@
     },
     "TimeOffset": {
       "tag": "TAG_INT",
-      "val": 18240
+      "val": 6909
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -34359738363
+      "val": -90194313209
     },
     "Variant": {
       "tag": "TAG_INT",

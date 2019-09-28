@@ -222,7 +222,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": 97.39551
+      "val": 97.44788
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -364,9 +364,18 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        0,
+        0.248136,
+        -0.007961713
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "Offhand": {
       "tag": "TAG_LIST",
@@ -390,7 +399,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -398,7 +407,7 @@
     },
     "Persistent": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "PortalCooldown": {
       "tag": "TAG_INT",
@@ -408,16 +417,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -4.5,
-        4,
-        -27.5
+        1026.451,
+        18.7532,
+        -3.384454
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        134.4683,
+        97.44788,
         0
       ]
     },
@@ -451,7 +460,7 @@
     },
     "Surface": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "TargetID": {
       "tag": "TAG_LONG",
@@ -467,7 +476,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -47244640239
+      "val": -111669149679
     },
     "Variant": {
       "tag": "TAG_INT",

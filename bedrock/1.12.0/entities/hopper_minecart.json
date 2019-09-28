@@ -118,7 +118,7 @@
     },
     "InventoryVersion": {
       "tag": "TAG_STRING",
-      "val": "1.11.4"
+      "val": "1.12.1"
     },
     "Invulnerable": {
       "tag": "TAG_BYTE",
@@ -200,14 +200,14 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
+        0.02365392,
         0,
         0
       ]
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -221,9 +221,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -12.5,
+        7.202924,
         4.5,
-        -8.5
+        11.5
       ]
     },
     "Rotation": {
@@ -264,7 +264,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -42949672959
+      "val": -47244640253
     },
     "Variant": {
       "tag": "TAG_INT",

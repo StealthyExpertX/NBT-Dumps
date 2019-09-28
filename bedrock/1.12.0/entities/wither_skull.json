@@ -4,6 +4,15 @@
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "CollisionPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        0,
+        0,
+        0
+      ]
+    },
     "Color": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -100,9 +109,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0,
-        0
+        1.109651,
+        0.2415163,
+        -0.2324852
       ]
     },
     "OnGround": {
@@ -111,7 +120,7 @@
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
-      "val": 0
+      "val": -90194313211
     },
     "PortalCooldown": {
       "tag": "TAG_INT",
@@ -121,17 +130,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        33.5,
-        9.5,
-        -12.5
+        59.04132,
+        18.05353,
+        -3.004343
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0
+        101.833,
+        12.02571
       ]
     },
     "Saddled": {
@@ -162,13 +171,22 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "StuckToBlockPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_INT",
+      "val": [
+        0,
+        0,
+        0
+      ]
+    },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -1
+      "val": -90194313208
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -47244633969
+      "val": -90194313207
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -178,17 +196,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_STRING",
       "val": [
-        "+minecraft:wither_skull",
-        "+minecraft:exploding"
+        "+minecraft:wither_skull"
       ]
     },
     "direction": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0,
-        0
+        1.109651,
+        0.2415163,
+        -0.2324852
       ]
     },
     "identifier": {

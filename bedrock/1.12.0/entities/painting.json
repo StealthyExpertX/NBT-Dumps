@@ -14,11 +14,11 @@
     },
     "Dir": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "Direction": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 2
     },
     "FallDistance": {
       "tag": "TAG_FLOAT",
@@ -115,7 +115,7 @@
     },
     "Motive": {
       "tag": "TAG_STRING",
-      "val": "Sea"
+      "val": "Bomb"
     },
     "OnGround": {
       "tag": "TAG_BYTE",
@@ -133,16 +133,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -12.03125,
+        10.5,
         4.5,
-        -13
+        7.96875
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        90,
+        0,
         0
       ]
     },
@@ -174,21 +174,9 @@
       "tag": "TAG_INT",
       "val": 0
     },
-    "TileX": {
-      "tag": "TAG_INT",
-      "val": -12
-    },
-    "TileY": {
-      "tag": "TAG_INT",
-      "val": 4
-    },
-    "TileZ": {
-      "tag": "TAG_INT",
-      "val": -14
-    },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -38654705661
+      "val": -73014444031
     },
     "Variant": {
       "tag": "TAG_INT",

@@ -1,5 +1,5 @@
 {
-  "minecraft:small_fireball": {
+  "minecraft:splash_potion": {
     "Chested": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -27,7 +27,7 @@
     },
     "Fire": {
       "tag": "TAG_SHORT",
-      "val": 20
+      "val": 0
     },
     "Invulnerable": {
       "tag": "TAG_BYTE",
@@ -109,18 +109,22 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        1.054927,
-        0.04433434,
-        0.7665629
+        0,
+        -1.68859,
+        0
       ]
     },
     "OnGround": {
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "OwnerID": {
+      "tag": "TAG_LONG",
+      "val": 0
+    },
     "OwnerNew": {
       "tag": "TAG_LONG",
-      "val": -94489280440
+      "val": -1
     },
     "PortalCooldown": {
       "tag": "TAG_INT",
@@ -130,17 +134,21 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        80.8179,
-        11.02746,
-        93.83379
+        20.5,
+        68.35895,
+        11.5
       ]
+    },
+    "PotionId": {
+      "tag": "TAG_SHORT",
+      "val": 0
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        53.99595,
-        1.947192
+        0,
+        -90
       ]
     },
     "Saddled": {
@@ -182,11 +190,11 @@
     },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -4294967295
+      "val": -1
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -98784247794
+      "val": -38654688015
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -196,34 +204,20 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_STRING",
       "val": [
-        "+minecraft:small_fireball"
-      ]
-    },
-    "direction": {
-      "tag": "TAG_LIST",
-      "listtag": "TAG_FLOAT",
-      "val": [
-        1.054927,
-        0.04433434,
-        0.7665629
+        "+minecraft:splash_potion"
       ]
     },
     "identifier": {
       "tag": "TAG_STRING",
-      "val": "minecraft:small_fireball"
+      "val": "minecraft:splash_potion"
     },
     "inGround": {
       "tag": "TAG_BYTE",
       "val": 0
     },
-    "power": {
-      "tag": "TAG_LIST",
-      "listtag": "TAG_FLOAT",
-      "val": [
-        0,
-        0,
-        0
-      ]
+    "shake": {
+      "tag": "TAG_BYTE",
+      "val": 0
     }
   }
 }

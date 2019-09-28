@@ -77,47 +77,11 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 1
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
             "val": 0
           },
           "Current": {
             "tag": "TAG_FLOAT",
             "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.6
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.6
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -125,7 +89,25 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:movement"
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 4
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 4
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 4
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:health"
           }
         },
         {
@@ -167,6 +149,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 0.66
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.66
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 0.02
           },
           "Current": {
@@ -193,11 +193,11 @@
           },
           "Max": {
             "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
+            "val": 1024
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:luck"
           }
         },
         {
@@ -221,15 +221,15 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 2
+            "val": 4
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 2
+            "val": 4
           },
           "Max": {
             "tag": "TAG_FLOAT",
-            "val": 2
+            "val": 4
           },
           "Name": {
             "tag": "TAG_STRING",
@@ -240,7 +240,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": -151
+      "val": 30
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -374,6 +374,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -0.1165405,
+        0.5292,
+        0.201854
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -400,7 +409,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -418,16 +427,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -1.79507,
-        5.5,
-        -10.32268
+        9.791424,
+        4.62,
+        33.29445
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -151,
+        30,
         0
       ]
     },
@@ -449,7 +458,7 @@
     },
     "Size": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 2
     },
     "SkinID": {
       "tag": "TAG_INT",
@@ -485,11 +494,11 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -55834574840
+      "val": -30064771068
     },
     "Variant": {
       "tag": "TAG_INT",
-      "val": 1
+      "val": 2
     },
     "boundX": {
       "tag": "TAG_INT",
@@ -509,7 +518,7 @@
       "val": [
         "+minecraft:magma_cube",
         "+minecraft:slime_calm",
-        "+minecraft:slime_small"
+        "+minecraft:slime_medium"
       ]
     },
     "hasBoundOrigin": {

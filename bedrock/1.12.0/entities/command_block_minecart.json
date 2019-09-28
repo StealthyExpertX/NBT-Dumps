@@ -48,6 +48,10 @@
       "tag": "TAG_STRING",
       "val": ""
     },
+    "ExecuteOnFirstTick": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
     "FallDistance": {
       "tag": "TAG_FLOAT",
       "val": 0
@@ -58,7 +62,7 @@
     },
     "InventoryVersion": {
       "tag": "TAG_STRING",
-      "val": "1.11.4"
+      "val": "1.12.1"
     },
     "Invulnerable": {
       "tag": "TAG_BYTE",
@@ -160,7 +164,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -174,9 +178,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -21.07551,
-        3.35,
-        -1.619341
+        -1.5,
+        4.5,
+        10.5
       ]
     },
     "Rotation": {
@@ -219,6 +223,10 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "TickDelay": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
     "Ticking": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -229,7 +237,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -68719476733
+      "val": -111669149695
     },
     "Variant": {
       "tag": "TAG_INT",

@@ -77,6 +77,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 20
           },
           "Current": {
@@ -90,42 +108,6 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.23
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.23
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:movement"
           }
         },
         {
@@ -167,6 +149,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 0.23
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.23
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 0.02
           },
           "Current": {
@@ -185,19 +185,19 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
           },
           "Max": {
             "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
+            "val": 1024
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:luck"
           }
         },
         {
@@ -240,7 +240,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": 7.2995
+      "val": 95.69067
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -374,6 +374,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -0.01795171,
+        0.01904,
+        -0.001743241
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -400,7 +409,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -418,17 +427,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -4.653499,
-        4,
-        -11.78567
+        2.40556,
+        1.1048,
+        26.5903
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -26.0466,
-        0
+        95.69067,
+        -24.93169
       ]
     },
     "Saddled": {
@@ -449,7 +458,7 @@
     },
     "SkinID": {
       "tag": "TAG_INT",
-      "val": 2
+      "val": 3
     },
     "SpawnedByNight": {
       "tag": "TAG_BYTE",
@@ -473,7 +482,7 @@
     },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -60129542141
+      "val": -34359738355
     },
     "TradeExperience": {
       "tag": "TAG_INT",
@@ -485,7 +494,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -60129542136
+      "val": -34359738339
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -509,8 +518,8 @@
       "val": [
         "+minecraft:zombie_villager_v2",
         "+adult",
-        "+villager_skin_2",
-        "+farmer"
+        "+villager_skin_3",
+        "+mason"
       ]
     },
     "hasBoundOrigin": {

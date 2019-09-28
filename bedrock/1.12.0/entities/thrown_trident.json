@@ -4,6 +4,15 @@
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "CollisionPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        8,
+        3,
+        -4
+      ]
+    },
     "Color": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -125,17 +134,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -13.52006,
+        8.072724,
         4,
-        -22.46933
+        -3.334136
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        7.64982,
-        -89.79903
+        176.285,
+        -89.43796
       ]
     },
     "Saddled": {
@@ -166,6 +175,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "StuckToBlockPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_INT",
+      "val": [
+        8,
+        3,
+        -4
+      ]
+    },
     "TargetID": {
       "tag": "TAG_LONG",
       "val": -1
@@ -184,12 +202,21 @@
         "Name": {
           "tag": "TAG_STRING",
           "val": "minecraft:trident"
+        },
+        "tag": {
+          "tag": "TAG_COMPOUND",
+          "val": {
+            "Damage": {
+              "tag": "TAG_INT",
+              "val": 0
+            }
+          }
         }
       }
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -21474836267
+      "val": -64424509439
     },
     "Variant": {
       "tag": "TAG_INT",

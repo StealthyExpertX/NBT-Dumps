@@ -4,6 +4,15 @@
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "CollisionPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        11,
+        4,
+        -4
+      ]
+    },
     "Color": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -125,17 +134,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -13.47608,
+        11.90666,
         4,
-        -24.4673
+        -3.640494
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        114.2606,
-        -89.33072
+        27.71468,
+        -87.73312
       ]
     },
     "Saddled": {
@@ -166,13 +175,22 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "StuckToBlockPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_INT",
+      "val": [
+        11,
+        3,
+        -4
+      ]
+    },
     "TargetID": {
       "tag": "TAG_LONG",
       "val": -1
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -30064771064
+      "val": -64424509438
     },
     "Variant": {
       "tag": "TAG_INT",

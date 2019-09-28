@@ -4,6 +4,15 @@
       "tag": "TAG_BYTE",
       "val": 0
     },
+    "CollisionPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        0,
+        0,
+        0
+      ]
+    },
     "Color": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -100,9 +109,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0,
-        0
+        0.9667232,
+        -0.003139705,
+        -0.9501285
       ]
     },
     "OnGround": {
@@ -111,7 +120,7 @@
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
-      "val": 0
+      "val": -137438953434
     },
     "PortalCooldown": {
       "tag": "TAG_INT",
@@ -121,17 +130,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        23.50435,
-        18.4203,
-        -6.473862
+        49.1445,
+        10.54934,
+        -96.2601
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0
+        134.504,
+        -0.1327153
       ]
     },
     "Saddled": {
@@ -162,13 +171,22 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "StuckToBlockPos": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_INT",
+      "val": [
+        0,
+        0,
+        0
+      ]
+    },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -1
+      "val": -4294967295
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -94489280507
+      "val": -146028888062
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -185,9 +203,9 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        0,
-        0,
-        0
+        0.9667232,
+        -0.003139705,
+        -0.9501285
       ]
     },
     "identifier": {

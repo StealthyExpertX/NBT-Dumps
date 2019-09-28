@@ -77,6 +77,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 6
           },
           "Current": {
@@ -90,42 +108,6 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.4
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.4
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:movement"
           }
         },
         {
@@ -167,11 +149,11 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 0
+            "val": 0.4
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 0
+            "val": 0.4
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -179,7 +161,7 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:movement"
           }
         },
         {
@@ -198,6 +180,24 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:underwater_movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
           }
         },
         {
@@ -222,7 +222,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": -76.02979
+      "val": 46.26991
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -242,7 +242,7 @@
     },
     "FallDistance": {
       "tag": "TAG_FLOAT",
-      "val": 0
+      "val": 0.1612253
     },
     "Fire": {
       "tag": "TAG_SHORT",
@@ -356,6 +356,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        -0.06338255,
+        -0.0003579228,
+        0.0606334
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -382,7 +391,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -400,17 +409,17 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -7.874999,
-        4,
-        -5.499999
+        -1.291249,
+        5.008716,
+        21.86832
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -90.00027,
-        1.828522
+        46.26991,
+        8.146637
       ]
     },
     "Saddled": {
@@ -459,11 +468,11 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -47244640229
+      "val": -8589934578
     },
     "Variant": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 3
     },
     "boundX": {
       "tag": "TAG_INT",
@@ -482,7 +491,7 @@
       "listtag": "TAG_STRING",
       "val": [
         "+minecraft:parrot",
-        "+minecraft:parrot_red",
+        "+minecraft:parrot_cyan",
         "+minecraft:parrot_adult",
         "+minecraft:parrot_wild"
       ]

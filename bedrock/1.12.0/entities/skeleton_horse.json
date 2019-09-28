@@ -77,6 +77,24 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 3.402823e+38
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
             "val": 15
           },
           "Current": {
@@ -90,42 +108,6 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.2
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.2
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 3.402823e+38
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:movement"
           }
         },
         {
@@ -167,11 +149,11 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 0.8568944
+            "val": 0.2
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 0.8568944
+            "val": 0.2
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -179,7 +161,7 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:horse.jump_strength"
+            "val": "minecraft:movement"
           }
         },
         {
@@ -203,11 +185,29 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0.706501
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0.706501
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -215,7 +215,7 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:horse.jump_strength"
           }
         },
         {
@@ -240,7 +240,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": -47.19043
+      "val": -178.4842
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -374,15 +374,6 @@
       "tag": "TAG_INT",
       "val": 0
     },
-    "Motion": {
-      "tag": "TAG_LIST",
-      "listtag": "TAG_FLOAT",
-      "val": [
-        -0.0005044909,
-        0.08307783,
-        0.01260804
-      ]
-    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -409,7 +400,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -427,16 +418,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -2.73611,
-        5.16611,
-        -17.61888
+        -0.1837406,
+        4,
+        -7.056562
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        -49.29747,
+        -178.4842,
         0
       ]
     },
@@ -486,7 +477,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -47244640222
+      "val": -68719476735
     },
     "Variant": {
       "tag": "TAG_INT",

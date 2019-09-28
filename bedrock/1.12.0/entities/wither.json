@@ -85,43 +85,7 @@
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 142
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 600
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:health"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0
-          },
-          "Max": {
-            "tag": "TAG_FLOAT",
-            "val": 1024
-          },
-          "Name": {
-            "tag": "TAG_STRING",
-            "val": "minecraft:luck"
-          }
-        },
-        {
-          "Base": {
-            "tag": "TAG_FLOAT",
-            "val": 0.6
-          },
-          "Current": {
-            "tag": "TAG_FLOAT",
-            "val": 0.6
+            "val": 1
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -129,7 +93,25 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:movement"
+            "val": "minecraft:fall_damage"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 1
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 298
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 300
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:health"
           }
         },
         {
@@ -171,11 +153,11 @@
         {
           "Base": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0.6
           },
           "Current": {
             "tag": "TAG_FLOAT",
-            "val": 1
+            "val": 0.6
           },
           "Max": {
             "tag": "TAG_FLOAT",
@@ -183,7 +165,7 @@
           },
           "Name": {
             "tag": "TAG_STRING",
-            "val": "minecraft:fall_damage"
+            "val": "minecraft:movement"
           }
         },
         {
@@ -202,6 +184,24 @@
           "Name": {
             "tag": "TAG_STRING",
             "val": "minecraft:underwater_movement"
+          }
+        },
+        {
+          "Base": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Current": {
+            "tag": "TAG_FLOAT",
+            "val": 0
+          },
+          "Max": {
+            "tag": "TAG_FLOAT",
+            "val": 1024
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:luck"
           }
         },
         {
@@ -226,7 +226,7 @@
     },
     "BodyRot": {
       "tag": "TAG_FLOAT",
-      "val": 24.4001
+      "val": -165.6617
     },
     "Chested": {
       "tag": "TAG_BYTE",
@@ -258,7 +258,7 @@
     },
     "Invul": {
       "tag": "TAG_INT",
-      "val": 153
+      "val": 0
     },
     "Invulnerable": {
       "tag": "TAG_BYTE",
@@ -364,6 +364,15 @@
       "tag": "TAG_INT",
       "val": 0
     },
+    "Motion": {
+      "tag": "TAG_LIST",
+      "listtag": "TAG_FLOAT",
+      "val": [
+        3.515858e-42,
+        0.2819038,
+        -1.137854e-42
+      ]
+    },
     "NaturalSpawn": {
       "tag": "TAG_BYTE",
       "val": 0
@@ -390,7 +399,7 @@
     },
     "OnGround": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "OwnerNew": {
       "tag": "TAG_LONG",
@@ -412,16 +421,16 @@
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        36.93287,
-        4,
-        -2.712198
+        26.98662,
+        18.98546,
+        3.680584
       ]
     },
     "Rotation": {
       "tag": "TAG_LIST",
       "listtag": "TAG_FLOAT",
       "val": [
-        24.4001,
+        -107.9392,
         0
       ]
     },
@@ -435,7 +444,7 @@
     },
     "ShieldHealth": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 20
     },
     "ShowBottom": {
       "tag": "TAG_BYTE",
@@ -455,7 +464,7 @@
     },
     "SpawningFrames": {
       "tag": "TAG_INT",
-      "val": 153
+      "val": 0
     },
     "Strength": {
       "tag": "TAG_INT",
@@ -471,7 +480,7 @@
     },
     "TargetID": {
       "tag": "TAG_LONG",
-      "val": -1
+      "val": -90194313208
     },
     "TradeExperience": {
       "tag": "TAG_INT",
@@ -483,7 +492,7 @@
     },
     "UniqueID": {
       "tag": "TAG_LONG",
-      "val": -47244634110
+      "val": -90194313211
     },
     "Variant": {
       "tag": "TAG_INT",
@@ -526,7 +535,7 @@
     },
     "lastHealthInterval": {
       "tag": "TAG_INT",
-      "val": 600
+      "val": 300
     },
     "limitedLife": {
       "tag": "TAG_INT",
@@ -534,7 +543,7 @@
     },
     "maxHealth": {
       "tag": "TAG_INT",
-      "val": 600
+      "val": 300
     },
     "oldSwellAmount": {
       "tag": "TAG_FLOAT",
@@ -542,7 +551,7 @@
     },
     "overlayAlpha": {
       "tag": "TAG_FLOAT",
-      "val": 0.6475003
+      "val": -0.004999175
     },
     "swellAmount": {
       "tag": "TAG_FLOAT",
