@@ -14,8 +14,72 @@
     },
     "Items": {
       "tag": "TAG_LIST",
-      "listtag": "TAG_BYTE",
-      "val": []
+      "listtag": "TAG_COMPOUND",
+      "val": [
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 1
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 30
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:splash_potion"
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 1
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 1
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 30
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:potion"
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 2
+          }
+        },
+        {
+          "Count": {
+            "tag": "TAG_BYTE",
+            "val": 1
+          },
+          "Damage": {
+            "tag": "TAG_SHORT",
+            "val": 0
+          },
+          "Name": {
+            "tag": "TAG_STRING",
+            "val": "minecraft:potion"
+          },
+          "Slot": {
+            "tag": "TAG_BYTE",
+            "val": 3
+          },
+          "tag": {
+            "tag": "TAG_COMPOUND",
+            "val": {
+              "Potion": {
+                "tag": "TAG_STRING",
+                "val": "minecraft:water"
+              }
+            }
+          }
+        }
+      ]
     },
     "id": {
       "tag": "TAG_STRING",
@@ -27,15 +91,15 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -13
+      "val": 26
     },
     "y": {
       "tag": "TAG_INT",
-      "val": 4
+      "val": 24
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -28
+      "val": 26
     }
   }
 }

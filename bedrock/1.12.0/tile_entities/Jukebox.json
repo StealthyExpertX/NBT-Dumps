@@ -27,7 +27,7 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -13
+      "val": 12
     },
     "y": {
       "tag": "TAG_INT",
@@ -35,7 +35,7 @@
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -18
+      "val": -7
     }
   }
 }

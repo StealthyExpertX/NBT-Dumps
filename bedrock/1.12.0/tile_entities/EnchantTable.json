@@ -10,11 +10,11 @@
     },
     "rott": {
       "tag": "TAG_FLOAT",
-      "val": -1.046896
+      "val": 1.756895
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -13
+      "val": -7
     },
     "y": {
       "tag": "TAG_INT",
@@ -22,7 +22,7 @@
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -26
+      "val": 27
     }
   }
 }

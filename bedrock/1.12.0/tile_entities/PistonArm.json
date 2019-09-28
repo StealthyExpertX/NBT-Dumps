@@ -2,8 +2,12 @@
   "PistonArm": {
     "AttachedBlocks": {
       "tag": "TAG_LIST",
-      "listtag": "TAG_BYTE",
-      "val": []
+      "listtag": "TAG_INT",
+      "val": [
+        -1,
+        6,
+        35
+      ]
     },
     "BreakBlocks": {
       "tag": "TAG_LIST",
@@ -12,23 +16,23 @@
     },
     "LastProgress": {
       "tag": "TAG_FLOAT",
-      "val": 0
+      "val": 1
     },
     "NewState": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 3
     },
     "Progress": {
       "tag": "TAG_FLOAT",
-      "val": 0
+      "val": 0.5
     },
     "State": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 3
     },
     "Sticky": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "id": {
       "tag": "TAG_STRING",
@@ -36,11 +40,11 @@
     },
     "isMovable": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "x": {
       "tag": "TAG_INT",
-      "val": 2
+      "val": -1
     },
     "y": {
       "tag": "TAG_INT",
@@ -48,7 +52,7 @@
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -22
+      "val": 35
     }
   }
 }

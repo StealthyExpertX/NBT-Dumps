@@ -4,17 +4,25 @@
       "tag": "TAG_INT",
       "val": 5
     },
+    "dataField": {
+      "tag": "TAG_STRING",
+      "val": ""
+    },
     "id": {
       "tag": "TAG_STRING",
       "val": "StructureBlock"
     },
     "ignoreEntities": {
       "tag": "TAG_BYTE",
-      "val": 1
+      "val": 0
     },
     "includePlayers": {
       "tag": "TAG_BYTE",
       "val": 0
+    },
+    "integrity": {
+      "tag": "TAG_FLOAT",
+      "val": 100
     },
     "isMovable": {
       "tag": "TAG_BYTE",
@@ -24,33 +32,25 @@
       "tag": "TAG_BYTE",
       "val": 0
     },
-    "metadata": {
-      "tag": "TAG_STRING",
-      "val": ""
-    },
-    "settingsIntegrity": {
-      "tag": "TAG_FLOAT",
-      "val": 1
-    },
-    "settingsMirror": {
-      "tag": "TAG_INT",
-      "val": 0
-    },
-    "settingsRotation": {
-      "tag": "TAG_INT",
-      "val": 0
-    },
-    "settingsSeed": {
-      "tag": "TAG_INT",
-      "val": 0
-    },
-    "showAir": {
+    "mirror": {
       "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "removeBlocks": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "rotation": {
+      "tag": "TAG_BYTE",
+      "val": 0
+    },
+    "seed": {
+      "tag": "TAG_LONG",
       "val": 0
     },
     "showBoundingBox": {
       "tag": "TAG_BYTE",
-      "val": 0
+      "val": 1
     },
     "structureName": {
       "tag": "TAG_STRING",
@@ -58,7 +58,7 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -18
+      "val": -9
     },
     "xStructureOffset": {
       "tag": "TAG_INT",
@@ -66,7 +66,7 @@
     },
     "xStructureSize": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 5
     },
     "y": {
       "tag": "TAG_INT",
@@ -74,15 +74,15 @@
     },
     "yStructureOffset": {
       "tag": "TAG_INT",
-      "val": 1
+      "val": -1
     },
     "yStructureSize": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 5
     },
     "z": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 23
     },
     "zStructureOffset": {
       "tag": "TAG_INT",
@@ -90,7 +90,7 @@
     },
     "zStructureSize": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 5
     }
   }
 }

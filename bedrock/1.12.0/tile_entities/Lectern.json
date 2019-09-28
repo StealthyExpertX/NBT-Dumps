@@ -14,6 +14,517 @@
         "Name": {
           "tag": "TAG_STRING",
           "val": "minecraft:writable_book"
+        },
+        "tag": {
+          "tag": "TAG_COMPOUND",
+          "val": {
+            "pages": {
+              "tag": "TAG_LIST",
+              "listtag": "TAG_COMPOUND",
+              "val": [
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "1"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "2"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "3"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "4"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "5"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "6"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "7"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "8"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "9"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "10"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "11"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "12"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "13"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "14"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "15"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "16"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "17"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "18"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "19"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "20"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "21"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "22"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "23"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "24"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "25"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "26"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "27"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "28"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "29"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "30"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "31"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "32"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "33"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "34"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "35"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "36"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "37"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "38"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "39"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "40"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "41"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "42"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "43"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "44"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "45"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "46"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "47"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "48"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "49"
+                  }
+                },
+                {
+                  "photoname": {
+                    "tag": "TAG_STRING",
+                    "val": ""
+                  },
+                  "text": {
+                    "tag": "TAG_STRING",
+                    "val": "50"
+                  }
+                }
+              ]
+            }
+          }
         }
       }
     },
@@ -35,11 +546,11 @@
     },
     "totalPages": {
       "tag": "TAG_INT",
-      "val": 0
+      "val": 50
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -73
+      "val": 10
     },
     "y": {
       "tag": "TAG_INT",
@@ -47,7 +558,7 @@
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -37
+      "val": 9
     }
   }
 }

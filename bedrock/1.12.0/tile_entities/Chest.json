@@ -9,6 +9,14 @@
       "listtag": "TAG_BYTE",
       "val": []
     },
+    "LootTable": {
+      "tag": "TAG_STRING",
+      "val": "loot_tables/chests/simple_dungeon.json"
+    },
+    "LootTableSeed": {
+      "tag": "TAG_LONG",
+      "val": 1692057575
+    },
     "id": {
       "tag": "TAG_STRING",
       "val": "Chest"
@@ -19,15 +27,15 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -13
+      "val": 1417
     },
     "y": {
       "tag": "TAG_INT",
-      "val": 4
+      "val": 15
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -22
+      "val": 16
     }
   }
 }

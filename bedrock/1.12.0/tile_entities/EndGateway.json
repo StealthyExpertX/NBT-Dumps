@@ -1,41 +1,37 @@
 {
   "EndGateway": {
-    "Motion": {
+    "Age": {
+      "tag": "TAG_INT",
+      "val": 0
+    },
+    "ExitPortal": {
       "tag": "TAG_LIST",
       "listtag": "TAG_INT",
       "val": [
-        0,
-        0,
-        0
+        74,
+        58,
+        54
       ]
     },
     "id": {
       "tag": "TAG_STRING",
       "val": "EndGateway"
     },
-    "Age": {
-      "tag": "TAG_INT",
-      "val": 0
-    },
     "isMovable": {
-      "tag": "TAG_BYTE",
-      "val": 1
-    },
-    "mExitPositionVerified": {
       "tag": "TAG_BYTE",
       "val": 1
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -13
+      "val": 822
     },
     "y": {
       "tag": "TAG_INT",
-      "val": 4
+      "val": 70
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -22
+      "val": 609
     }
   }
 }

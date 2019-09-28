@@ -18,7 +18,7 @@
     },
     "EntityIdentifier": {
       "tag": "TAG_STRING",
-      "val": ":"
+      "val": "minecraft:spider"
     },
     "MaxNearbyEntities": {
       "tag": "TAG_SHORT",
@@ -54,15 +54,15 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": -15
+      "val": 1418
     },
     "y": {
       "tag": "TAG_INT",
-      "val": 4
+      "val": 15
     },
     "z": {
       "tag": "TAG_INT",
-      "val": -20
+      "val": 14
     }
   }
 }

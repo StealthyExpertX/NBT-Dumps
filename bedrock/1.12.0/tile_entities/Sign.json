@@ -1,16 +1,16 @@
 {
-  "Conduit": {
-    "Active": {
-      "tag": "TAG_BYTE",
-      "val": 1
+  "Sign": {
+    "Text": {
+      "tag": "TAG_STRING",
+      "val": "1\n2\n3\n4"
     },
-    "Target": {
-      "tag": "TAG_LONG",
-      "val": -1
+    "TextOwner": {
+      "tag": "TAG_STRING",
+      "val": "2535429281369509"
     },
     "id": {
       "tag": "TAG_STRING",
-      "val": "Conduit"
+      "val": "Sign"
     },
     "isMovable": {
       "tag": "TAG_BYTE",
@@ -18,15 +18,15 @@
     },
     "x": {
       "tag": "TAG_INT",
-      "val": 1
+      "val": 8
     },
     "y": {
       "tag": "TAG_INT",
-      "val": 2
+      "val": 4
     },
     "z": {
       "tag": "TAG_INT",
-      "val": 25
+      "val": 9
     }
   }
 }

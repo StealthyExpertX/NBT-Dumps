@@ -1,0 +1,62 @@
+{
+  "MovingBlock": {
+    "id": {
+      "tag": "TAG_STRING",
+      "val": "MovingBlock"
+    },
+    "isMovable": {
+      "tag": "TAG_BYTE",
+      "val": 1
+    },
+    "movingBlock": {
+      "tag": "TAG_COMPOUND",
+      "val": {
+        "name": {
+          "tag": "TAG_STRING",
+          "val": "minecraft:prismarine"
+        },
+        "val": {
+          "tag": "TAG_SHORT",
+          "val": 0
+        }
+      }
+    },
+    "movingBlockExtra": {
+      "tag": "TAG_COMPOUND",
+      "val": {
+        "name": {
+          "tag": "TAG_STRING",
+          "val": "minecraft:air"
+        },
+        "val": {
+          "tag": "TAG_SHORT",
+          "val": 0
+        }
+      }
+    },
+    "pistonPosX": {
+      "tag": "TAG_INT",
+      "val": -1
+    },
+    "pistonPosY": {
+      "tag": "TAG_INT",
+      "val": 4
+    },
+    "pistonPosZ": {
+      "tag": "TAG_INT",
+      "val": 35
+    },
+    "x": {
+      "tag": "TAG_INT",
+      "val": -1
+    },
+    "y": {
+      "tag": "TAG_INT",
+      "val": 5
+    },
+    "z": {
+      "tag": "TAG_INT",
+      "val": 35
+    }
+  }
+}
