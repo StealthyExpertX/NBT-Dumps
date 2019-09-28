@@ -10,5 +10,3 @@ Tool Credits.
 
 MCCToolChest,
 MCEdit.
-
-
